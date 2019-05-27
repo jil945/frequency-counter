@@ -6,12 +6,13 @@
       "**/.*",
       "**/node_modules/**"
     ],
-    "rewrites": [
-      {
-        "source": "**",
-        "destination": "/index.html"
-      }
-    ]
+    "rewrites": [{
+      "source": "/api**",
+      "functions": "api"
+    }, {
+      "source": "**",
+      "destination": "/index.html"
+    }]
   },
   "functions": {
     "predeploy": [
