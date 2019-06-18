@@ -4,8 +4,9 @@
   "private": true,
   "scripts": {
     "dev": "vue-cli-service serve --mode development",
-    "build": "vue-cli-service build && firebase deploy --only hosting,functions",
-    "lint": "vue-cli-service lint"
+    "build": "vue-cli-service build",
+    "lint": "vue-cli-service lint",
+    "build:firebase": "npm run build && firebase deploy --only hosting,functions"
   },
   "dependencies": {
     "axios": "^0.19.0",
