@@ -76,7 +76,7 @@ export default {
 
             this.errorMsg = "";
             try {
-                const resp = await http.get("api", {
+                const resp = await http.get("count", {
                     params: {
                         url: this.url
                     }
