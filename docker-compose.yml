@@ -10,12 +10,12 @@ services:
     networks:
       - webnet
   web:
-    image: fc-web:latest
+    image: jil945/fc-web:latest
     networks:
       - webnet
   
   api:
-    image: fc-api:latest
+    image: jil945/fc-api:latest
     networks:
       - webnet
     
