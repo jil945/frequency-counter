@@ -5,7 +5,7 @@
     "lint": "eslint .",
     "serve": "firebase serve --only functions",
     "shell": "firebase functions:shell",
-    "start": "PORT=8080 node server.js",
+    "start": "node server.js",
     "dev": "PORT=8080 node server.js"
   },
   "main": "index.js",
